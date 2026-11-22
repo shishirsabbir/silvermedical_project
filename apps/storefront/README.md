@@ -32,7 +32,7 @@ npm run start
 
 ## Cloudflare Workers client preview
 
-The storefront and design system share one Worker named `silver-medical-preview`. Open `/` for the storefront, select **Design system** to explore the shared colours, fonts and components, and use **View storefront** to return. The gallery also supports direct links such as `/design-system/brand` and `/design-system/overlays`. The demo keeps account, basket and order data in the visitor’s browser.
+The storefront and design system share one Worker named `silvermedical-project`. Open `/` for the storefront, select **Design system** to explore the shared colours, fonts and components, and use **View storefront** to return. The gallery also supports direct links such as `/design-system/brand` and `/design-system/overlays`. The demo keeps account, basket and order data in the visitor’s browser.
 
 From the repository root, use Node.js 24 LTS and the workspace lockfile. Build once, check the deployment bundle, then start the local Workers runtime.
 
@@ -52,7 +52,7 @@ npx wrangler login
 npm run cf:deploy
 ```
 
-For a Git-connected deployment in the Cloudflare dashboard, use the repository root as the build directory so npm can resolve the shared UI workspace. Set the Worker name to `silver-medical-preview`, the build command to `npm run cf:build`, and the deploy command to `npm run cf:deploy`. [Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/).
+For a Git-connected deployment in the Cloudflare dashboard, use the repository root as the build directory so npm can resolve the shared UI workspace. The connected Worker, the Wrangler `name`, and the `service` for `WORKER_SELF_REFERENCE` must all use `silvermedical-project`. Set the build command to `npm run cf:build` and the deploy command to `npm run cf:deploy`. For branch previews, use `cd apps/storefront && npx wrangler preview` so Wrangler loads the storefront configuration. [Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/).
 
 The [Wrangler configuration](wrangler.jsonc) targets the preview subdomain. The [OpenNext configuration](open-next.config.ts) uses Workers Static Assets for the prerendered pages and their cache. The same Worker handles dynamic catalogue and order routes. The preview requires no database, payment credentials or R2 bucket. Its pages include `noindex` metadata. Anyone with the published preview URL can open it.
 
