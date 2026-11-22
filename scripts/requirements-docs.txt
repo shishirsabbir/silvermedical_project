@@ -1,0 +1,5 @@
+# Existing document-tool versions observed locally on 2026-11-16.
+# These are document-builder dependencies, not application stack selections.
+reportlab==5.0.1
+PyMuPDF==1.28.2
+Pillow==12.3.0

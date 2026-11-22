@@ -1,0 +1,56 @@
+{
+  "basis": "Illustrative assumptions only; GBP; hypothetical basket after discounts; all sales assumed standard-rated at 20 percent for this example. Replace with quote-based costs and actual mixed-basket taxes.",
+  "scenarios": [
+    {
+      "name": "Weak small basket",
+      "product_revenue_ex_vat": 45,
+      "gross_margin_rate": 0.22,
+      "shipping_revenue_ex_vat": 0,
+      "vat_rate": 0.20,
+      "payment_rate_on_gross": 0.0175,
+      "payment_fixed": 0.20,
+      "pick_pack": 2.60,
+      "packaging": 0.65,
+      "outbound_freight": 4.80,
+      "returns_warranty_reserve_rate": 0.018,
+      "support": 1.20,
+      "credit_loss_rate": 0.003,
+      "cac": 9,
+      "monthly_fixed_cost": 15000
+    },
+    {
+      "name": "Base repeatable basket",
+      "product_revenue_ex_vat": 100,
+      "gross_margin_rate": 0.30,
+      "shipping_revenue_ex_vat": 0,
+      "vat_rate": 0.20,
+      "payment_rate_on_gross": 0.0175,
+      "payment_fixed": 0.20,
+      "pick_pack": 2.60,
+      "packaging": 0.75,
+      "outbound_freight": 5.50,
+      "returns_warranty_reserve_rate": 0.012,
+      "support": 1.00,
+      "credit_loss_rate": 0.003,
+      "cac": 15,
+      "monthly_fixed_cost": 20000
+    },
+    {
+      "name": "Stronger larger basket",
+      "product_revenue_ex_vat": 180,
+      "gross_margin_rate": 0.34,
+      "shipping_revenue_ex_vat": 0,
+      "vat_rate": 0.20,
+      "payment_rate_on_gross": 0.0175,
+      "payment_fixed": 0.20,
+      "pick_pack": 3.00,
+      "packaging": 1.00,
+      "outbound_freight": 7.00,
+      "returns_warranty_reserve_rate": 0.010,
+      "support": 1.20,
+      "credit_loss_rate": 0.004,
+      "cac": 20,
+      "monthly_fixed_cost": 25000
+    }
+  ]
+}

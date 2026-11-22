@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <title>Silver Medical</title>
+  <rect width="120" height="120" rx="23" fill="#082f26"/>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-4.076 -0.548 120 120" x="0" y="0" width="120" height="120">
+  <title>Silver Medical interlocking mark</title>
+  <defs><linearGradient id="silver-foil" gradientUnits="userSpaceOnUse" x1="303" y1="100" x2="718" y2="546"><stop stop-color="#a4acac" /><stop offset=".28" stop-color="#f2f4f3" /><stop offset=".51" stop-color="#a7b1b1" /><stop offset=".70" stop-color="#e1e5e4" /><stop offset="1" stop-color="#909b9c" /></linearGradient></defs>
+  <g transform="translate(13 13)"><g transform="scale(.196) translate(-294 -76)"><path fill="#edf2ee" d="M 496,112 C 468,87 442,76 410,77 C 346,77 296,129 295,194 C 294,228 307,259 332,285 L 477,444 L 512,405 L 371,254 C 354,236 346,215 348,192 C 350,157 376,130 410,130 C 429,130 446,136 464,151 Z" /><path fill="#edf2ee" d="M 392,263 L 504,133 C 536,95 566,77 609,77 C 676,77 730,127 731,194 C 732,236 715,269 680,302 L 647,267 C 669,245 680,223 678,196 C 677,158 648,131 612,131 C 588,130 567,142 547,165 L 430,301 Z" /><g transform="rotate(180 513 313)"><path fill="#edf2ee" d="M 496,112 C 468,87 442,76 410,77 C 346,77 296,129 295,194 C 294,228 307,259 332,285 L 477,444 L 512,405 L 371,254 C 354,236 346,215 348,192 C 350,157 376,130 410,130 C 429,130 446,136 464,151 Z" /><path fill="#edf2ee" d="M 392,263 L 504,133 C 536,95 566,77 609,77 C 676,77 730,127 731,194 C 732,236 715,269 680,302 L 647,267 C 669,245 680,223 678,196 C 677,158 648,131 612,131 C 588,130 567,142 547,165 L 430,301 Z" /></g></g></g>
+</svg>
+</svg>

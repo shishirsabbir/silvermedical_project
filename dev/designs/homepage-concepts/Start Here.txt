@@ -1,0 +1,11 @@
+﻿Silver Medical UK
+The Silver Edit
+Prepared by shishirsabbir
+
+1. Extract this ZIP.
+2. Open "Silver Medical - The Silver Edit.html" in your browser.
+3. Select Desktop or Mobile to change the view. Scroll inside the preview
+   to see the full homepage, or select Open full preview for a separate tab.
+
+The design works offline. You can try search, saved products and the
+sample basket. Products, photographs and prices are illustrative.

@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "hero": { "desktop": [1536, 736], "mobile": [760, 560] },
+    "feature": { "desktop": [1120, 900], "mobile": [736, 700] },
+    "collection": { "desktop": [1008, 584], "mobile": [704, 640] },
+    "department": { "desktop": [1248, 624], "mobile": [704, 560] }
+  },
+  "shots": {
+    "homepage": { "profile": "hero", "desktop": [0.5, 0.44], "mobile": [0.94, 0.42, 1.09] },
+    "diagnostic-collection": { "profile": "feature", "source": "diagnostics.webp", "desktop": [0.86, 0.56], "mobile": [0.83, 0.5] },
+    "everyday-collection": { "profile": "collection", "desktop": [0.64, 0.48], "mobile": [0.78, 0.5] },
+    "clinical-workspace": { "profile": "collection", "source": "clinic.webp", "desktop": [0.5, 0.50], "mobile": [0.87, 0.54] },
+    "diagnostics": { "profile": "department", "desktop": [0.5, 0.44], "mobile": [0.88, 0.52, 1.08] },
+    "consumables": { "profile": "department", "desktop": [0.5, 0.46], "mobile": [0.74, 0.54, 1.05] },
+    "wound-care": { "profile": "department", "desktop": [0.5, 0.56], "mobile": [0.72, 0.52] },
+    "equipment": { "profile": "department", "desktop": [0.5, 0.56], "mobile": [0.72, 0.52] },
+    "dental": { "profile": "department", "desktop": [0.5, 0.09], "mobile": [0.72, 0.5] },
+    "veterinary": { "profile": "department", "desktop": [0.5, 0.55], "mobile": [0.75, 0.52] },
+    "laboratory": { "profile": "department", "desktop": [0.5, 0.18], "mobile": [0.74, 0.52] },
+    "infection-control": { "profile": "department", "desktop": [0.5, 0.34], "mobile": [0.73, 0.5] }
+  }
+}

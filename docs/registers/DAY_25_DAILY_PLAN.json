@@ -1,0 +1,252 @@
+[
+  {
+    "kind": "day",
+    "day": 1,
+    "date": "16 Nov 2026",
+    "title": "Co-design the brand and buying journey",
+    "build": "Run the AI-assisted workshop: compare three creative directions, choose a website layout and prioritise launch functionality. Record the design decisions and asset brief.",
+    "client": "Owners join the workshop, explain their buyers and choose one direction; nominate one decision-maker.",
+    "evidence": "Chosen concept, draft home/product screens and agreed must-have feature list.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 2,
+    "date": "17 Nov 2026",
+    "title": "Refine the design and establish the project",
+    "build": "Turn the chosen direction into reusable UI tokens/components. Set up repository, staging, schema outline, CI and secrets approach; start provider integration checks.",
+    "client": "Provide legal/operator details, domain shortlist, merchant access through safe channels, shipping and tax inputs. Begin provider onboarding if needed.",
+    "evidence": "Clickable design direction, staging shell and a dated dependency register.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 3,
+    "date": "18 Nov 2026",
+    "title": "Secure identities and approve the brand pack",
+    "build": "Implement customer verification/reset, invite-only staff and MFA. Validate the proposed auth/database adapters. Finalise initial logo, banners and shipping-packaging concepts.",
+    "client": "Approve the brand/UI baseline; supply ten representative products with quantities, evidence and permitted images.",
+    "evidence": "Customer/staff separation works; ten product dossiers and approved design files exist.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 4,
+    "date": "19 Nov 2026",
+    "title": "Build the first catalogue and stock records",
+    "build": "Implement product/variant forms, draft import, evidence controls, image processing and opening stock/receipt records using the ten pilot items.",
+    "client": "Warehouse checks the ten physical items, pack sizes, lots/expiry where relevant and usable stock.",
+    "evidence": "Pilot products move from draft to reviewed staging pages with accurate stock.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 5,
+    "date": "20 Nov 2026",
+    "title": "Prove a complete first transaction",
+    "build": "Connect one approved sample item to basket, server quote, a sandbox payment and verified event, dispatch/refund logic and backup proof. Review actual delivery throughput.",
+    "client": "Join the demonstration; close product, provider and policy questions or record blockers with an owner/date.",
+    "evidence": "First end-to-end slice passes; scope and schedule are revalidated before wider build.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 6,
+    "date": "21 Nov 2026",
+    "title": "Build the shopping shell",
+    "build": "Implement responsive home, category navigation, header/search, account/basket links and approved banner placement. Connect reusable listing cards to real catalogue data.",
+    "client": "Confirm navigation language, category names, support contacts and truthful service promises.",
+    "evidence": "Desktop/mobile storefront works with real pilot data.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 7,
+    "date": "22 Nov 2026",
+    "title": "Deliver search and catalogue browsing",
+    "build": "Implement search, essential filters, pagination and availability. Complete image delivery/cache behaviour; import batch 1, including the ten pilot records.",
+    "client": "Prepare and review the first 50 records; correct image/content or stock mismatches.",
+    "evidence": "50 records processed; a buyer can find approved products by name and SKU.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 8,
+    "date": "23 Nov 2026",
+    "title": "Complete product pages and professional checks",
+    "build": "Deliver variants/pack sizes, product documents and eligibility messages. Add professional application/review and enforce the same rules in the API.",
+    "client": "Name the professional reviewer and approve product/buyer rules; inspect mobile product pages.",
+    "evidence": "Wrong buyer/territory is blocked; approved buyer follows a clear purchase route.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 9,
+    "date": "24 Nov 2026",
+    "title": "Complete basket, quotes and delivery totals",
+    "build": "Build editable basket, guest checkout, address capture, server-calculated tax/delivery totals and stock reservations. Import batch 2.",
+    "client": "Approve shipping zones/rates, tax treatment and next 50 product records.",
+    "evidence": "100 records processed; quoted total matches a hand-checked order.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 10,
+    "date": "25 Nov 2026",
+    "title": "Complete Revolut and supported wallets",
+    "build": "Integrate the approved Revolut flow, wallet domain/device setup, success/cancel/retry screens and event verification. Review provider approval readiness.",
+    "client": "Resolve merchant verification/category requests and confirm provider acceptance evidence.",
+    "evidence": "Payment status comes from verified provider state; no browser-only paid flag.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 11,
+    "date": "26 Nov 2026",
+    "title": "Add PayPal and payment reliability",
+    "build": "Integrate PayPal, durable webhook handling and reconciliation; test retries, duplicate/late capture and refund primitives. Import batch 3.",
+    "client": "Review the next 50 records and confirm refund/settlement responsibility.",
+    "evidence": "150 records processed; duplicate events create no extra fulfilment or refund.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 12,
+    "date": "27 Nov 2026",
+    "title": "Give warehouse staff an order workflow",
+    "build": "Build admin order queues, holds, pick/pack records, manual shipping/tracking entry and stock allocation controls.",
+    "client": "Run a warehouse walkthrough; provide the actual carrier booking and return-address process.",
+    "evidence": "A test paid order can be picked, dispatched and traced to its stock record.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 13,
+    "date": "28 Nov 2026",
+    "title": "Deliver documents and service email",
+    "build": "Add confirmations, dispatch/refund email, invoice/credit-note records and safe mail retry/suppression handling. Import batch 4.",
+    "client": "Approve email text, seller details, invoice/tax format and next 50 records.",
+    "evidence": "200 records processed; documents and mail match the order and refund totals.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 14,
+    "date": "29 Nov 2026",
+    "title": "Finish the after-sales loop",
+    "build": "Complete partial shipment/refund cases, return logging, quarantined returns and lot-based hold/recall records. Test stock/payment state transitions.",
+    "client": "Finance and support operate example returns and agree escalation ownership.",
+    "evidence": "Receive -> sale -> dispatch -> return/refund works without losing stock or money history.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 15,
+    "date": "30 Nov 2026",
+    "title": "Complete the initial catalogue intake",
+    "build": "Import batch 5; add reports/exports and resolve data validation errors. Review remaining scope against working capacity.",
+    "client": "Submit the final 50 records and finish missing evidence/rights/pricing decisions.",
+    "evidence": "250 reported records have an explicit status; unresolved records remain held.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 16,
+    "date": "01 Dec 2026",
+    "title": "Apply policies and search foundations",
+    "build": "Implement approved seller/policy pages, metadata, canonical URLs, sitemap and product structured data; finish financial/support exports.",
+    "client": "Approve final public content, consumer information and actual fulfilment promises.",
+    "evidence": "Public pages describe the business accurately; indexing includes only approved pages.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 17,
+    "date": "02 Dec 2026",
+    "title": "Finish consent, feeds and measurement",
+    "build": "Wire consent/preferences, service-versus-marketing separation, basic funnel events and an eligibility-filtered Merchant feed. Prepare account setup/review checklist.",
+    "client": "Review channel permissions and old Google notices; approve the eligible feed list and tracking choices.",
+    "evidence": "No forbidden feed items or non-essential tracking before required consent.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 18,
+    "date": "03 Dec 2026",
+    "title": "Audit all 250 records and the next-product flow",
+    "build": "Check counts, pack units, images, prices, stock and rule gates. Fix import errors; add one extra test product in staging to prove catalogue expansion.",
+    "client": "Reviewer signs each sellable record or records a hold reason; warehouse resolves count differences.",
+    "evidence": "250 = approved + held + excluded/duplicate; no unreviewed launch record.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 19,
+    "date": "04 Dec 2026",
+    "title": "Test the complete customer and staff journeys",
+    "build": "Run meaningful browser/integration tests: guest/customer/professional, staff MFA, ID access, checkout, failed payment, last-unit race, dispatch and refunds.",
+    "client": "Owners test representative consumer and professional orders; staff record usability issues.",
+    "evidence": "Critical paths have evidence; defects are ranked by launch impact.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 20,
+    "date": "05 Dec 2026",
+    "title": "Verify performance, security and recovery",
+    "build": "Audit mobile/desktop SEO/performance/accessibility, consent network behaviour, realistic load, dependencies and backup restoration.",
+    "client": "Confirm operational response contacts and review evidence against the agreed release targets.",
+    "evidence": "Measured audit/load/restore reports; no unresolved critical security or transaction failure.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 21,
+    "date": "06 Dec 2026",
+    "title": "Run business acceptance and training",
+    "build": "Demonstrate everyday admin, product intake, stock adjustment, eligibility decisions, reconciliation, returns and incident recovery.",
+    "client": "Warehouse, support, finance and product reviewer each complete their task unaided.",
+    "evidence": "Signed UAT checklist and staff SOPs; handover gaps are assigned.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 22,
+    "date": "07 Dec 2026",
+    "title": "Fix release blockers and regress",
+    "build": "Use the protected correction window for UAT/security/transaction/data defects. Repeat affected tests and critical purchase/refund regression.",
+    "client": "Respond to remaining decisions promptly; approve corrected content and operational procedures.",
+    "evidence": "Critical/high-impact launch blockers are closed with evidence.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 23,
+    "date": "08 Dec 2026",
+    "title": "Rehearse the production release",
+    "build": "Rehearse migration, TLS/routing, mail/provider credentials, real backup restoration and rollback. Verify authorised live payment/refund smoke tests when accounts are ready.",
+    "client": "Confirm payment accounts, catalogue acceptance, fulfilment readiness and owner-controlled service accounts.",
+    "evidence": "Production checklist and rollback/restore proof; no sandbox credentials in production.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 24,
+    "date": "09 Dec 2026",
+    "title": "Freeze launch data and decide go/no-go",
+    "build": "Reconcile final stock changes, finalise approved catalogue/feed, repeat key checks and assemble the release record. Freeze non-essential changes.",
+    "client": "Owner signs the sellable assortment and operating readiness; warehouse supplies final counts.",
+    "evidence": "Named release approval, supported payment methods, shipping rules and monitoring coverage.",
+    "status": "planned"
+  },
+  {
+    "kind": "day",
+    "day": 25,
+    "date": "10 Dec 2026",
+    "title": "Launch and supervise the first orders",
+    "build": "Carry out the approved release, verify public routes, payment/stock/email flows and monitor errors, orders and jobs. Keep rollback and support ready.",
+    "client": "Operate the first orders, confirm packing/dispatch and reconcile payments; record feedback.",
+    "evidence": "Controlled first-selling release for the approved stocked assortment; next-product intake is usable.",
+    "status": "planned"
+  }
+]

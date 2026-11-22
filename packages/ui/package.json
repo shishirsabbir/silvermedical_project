@@ -1,0 +1,17 @@
+{
+  "name": "@silver-medical/ui",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./brand": "./src/brand.tsx",
+    "./icons": "./src/icons.tsx",
+    "./controls": "./src/controls.tsx",
+    "./navigation": "./src/navigation.tsx",
+    "./overlays": "./src/overlays.tsx",
+    "./commerce": "./src/commerce.tsx",
+    "./*.css": "./src/*.css"
+  },
+  "peerDependencies": {"react": "^19.0.0", "react-dom": "^19.0.0"},
+  "dependencies": {"lucide-react": "0.577.0", "radix-ui": "1.8.1"}
+}

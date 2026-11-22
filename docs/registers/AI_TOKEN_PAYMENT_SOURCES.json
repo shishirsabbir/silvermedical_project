@@ -1,0 +1,58 @@
+[
+  {
+    "id": "S1",
+    "title": "Alibaba Cloud Model Studio pricing",
+    "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "checked": "2026-11-10",
+    "scope": "Qwen 3.8 Max -0902, Frankfurt/global, <=1m input/request: USD1.65 input/4.951 output per million. Singapore/international is USD2/6. Coder Flash Singapore steps from 0.3/1.5 at <=32K to 0.5/2.5 at 32K-128K.",
+    "limit": "Does not establish project usage, model fitness, availability or account access."
+  },
+  {
+    "id": "S2",
+    "title": "OpenAI API pricing",
+    "url": "https://developers.openai.com/api/docs/pricing",
+    "checked": "2026-11-10",
+    "scope": "Direct standard short-context USD per million: chat-latest 5/30; GPT-6.1 Sol standard 2/10 and Fast 4/20 (+100%). Long-context, region and tool charges differ.",
+    "limit": "API billing is separate from ChatGPT subscriptions. Recheck mutable aliases."
+  },
+  {
+    "id": "S3",
+    "title": "Claude API pricing",
+    "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "checked": "2026-11-10",
+    "scope": "Direct standard USD per million base tokens: Opus 5.5 4/20; Sonnet 5.5 2/10. Newer tokenizer may produce about 30% more tokens for the same text; cache writes/reads differ.",
+    "limit": "Same token counts do not establish equal work or quality; partner/regional routes differ."
+  },
+  {
+    "id": "S4",
+    "title": "Aliyun Model Studio RMB pricing",
+    "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "checked": "2026-11-10",
+    "scope": "Qwen 3.8 Max -0902, Frankfurt/global or Beijing direct RMB tariff: CNY12/36 per million input/output.",
+    "limit": "Separate account/billing route; not interchangeable with USD tariff or spot-FX conversion."
+  },
+  {
+    "id": "S5",
+    "title": "Anthropic: Introducing Claude Sonnet 5",
+    "url": "https://www.anthropic.com/news/claude-sonnet-5",
+    "checked": "2026-11-10",
+    "scope": "Release 30 June 2026; August 10 edit makes USD2/10 permanent and cancels proposed September USD3/15 increase.",
+    "limit": "Specific cancelled increase, not a conclusion about all historical AI prices."
+  },
+  {
+    "id": "S6",
+    "title": "ECB reference: CNY per EUR",
+    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-cny.en.html",
+    "checked": "2026-11-10",
+    "scope": "Latest populated date observed: 9 November 2026, EUR1=CNY7.4689.",
+    "limit": "Reference, not settlement; November 10 unpopulated when checked."
+  },
+  {
+    "id": "S7",
+    "title": "ECB reference: USD per EUR",
+    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+    "checked": "2026-11-10",
+    "scope": "9 November 2026 EUR1=USD1.1193. Cross rate CNY/USD=7.4689/1.1193.",
+    "limit": "Payment rate and fees may differ."
+  }
+]

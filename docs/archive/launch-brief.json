@@ -1,0 +1,74 @@
+{
+  "title": "UK medical ecommerce",
+  "subtitle": "Project scope, delivery and launch budget",
+  "date": "8 November 2026",
+  "version": "Launch brief 1.0",
+  "promise": "Phase 1 target: start selling on Day 25",
+  "intro": "A new brand buying and holding medical stock from UK/EU suppliers, selling to consumers and verified professionals. UK first; Europe later. Praxisdienst is the benchmark. Activate each product after review; the full catalogue remains the ambition.",
+  "metrics": [
+    {"value": "25 days", "label": "Phase 1 target"},
+    {"value": "~£7.7k", "label": "Illustrative launch budget"},
+    {"value": "~£85/mo", "label": "Technology allowance"}
+  ],
+  "left": [
+    {
+      "number": "01", "title": "What we will develop first", "tone": "blue",
+      "items": [
+        "<b>Storefront:</b> mobile Next.js website, categories/search, accurate product and pack details, consumer prices, account/guest checkout and order history.",
+        "<b>Admin:</b> React product/import review, upload-time image optimisation to R2, supplier records, owned stock, lot/expiry tracking where needed, orders, dispatch, refunds, staff roles and audit history.",
+        "<b>Hosting/commerce:</b> Next.js, admin, API and PostgreSQL on Hostinger KVM 4; Cloudflare domain/R2. Revolut with Apple Pay/Google Pay and PayPal, subject to approval; VAT/delivery rules, professional checks, reservations and order emails. API recommendation: NestJS/Fastify, still open."
+      ]
+    },
+    {
+      "number": "02", "title": "How we will sell lawfully", "tone": "teal",
+      "items": [
+        "Approve suppliers and each SKU before publication: intended use, evidence, content rights, eligible buyer, destination, storage and traceability. Receive stock, verify it, then offer only available, approved items.",
+        "<b>Product routes:</b> devices/IVDs need the applicable MHRA/conformity route; PPE, biocides and medicines have separate rules. Assess GB and Northern Ireland separately. Prescription medicines remain undecided and gated pending the authorised supply route. [1]",
+        "<b>Customer rules:</b> clear seller identity and total prices; VAT by transaction; lawful cancellation, returns and faulty-goods rights. Apply UK GDPR/PECR, secure records and channel-specific messaging permissions. [2]",
+        "<b>Promotion:</b> reviewed SEO and Google feeds only. UK prescription-drug listings are excluded from Merchant Center; the UK OTC route requires pharmacy registration/certification. WhatsApp has healthcare-product restrictions and needs a separate feasibility review. [3,6]"
+      ]
+    },
+    {
+      "number": "03", "title": "Ideas for earlier traction", "tone": "teal",
+      "items": [
+        "Start with a curated, compliant, in-stock assortment; test a matched-price basket and clinic starter packs. Offer fast quote turnaround, clear pack prices, reliable dispatch and reorder lists. Seek manufacturer referrals and pilot clinic customers. Add permission-based welcome, stock-alert and replenishment emails; measure repeat contribution, not traffic alone."
+      ]
+    }
+  ],
+  "right": [
+    {
+      "number": "04", "title": "The 25-day implementation", "tone": "blue",
+      "items": [
+        "<b>Days 1-3:</b> freeze launch scope/SKUs, API and reuse choices; establish seller, supplier evidence, tax/delivery rules, domain/KVM and payment applications.",
+        "<b>Days 4-10:</b> database/API, React admin, stock/import review, R2 media and Next.js shopping pages. Reuse proven components; review and test AI-assisted work.",
+        "<b>Days 11-17:</b> checkout, approved payments/webhooks, stock reservations, VAT, dispatch/refunds, service emails, preferences and professional order checks.",
+        "<b>Days 18-24:</b> approve launch data/policies; test complete orders, failed/duplicate payments, refunds, fulfilment, permissions, mobile/accessibility, peak load and backup restoration.",
+        "<b>Day 25:</b> controlled release only with lawful stock, accepted payments, ready fulfilment/support and passing order/refund, access and restore checks. Requires daily owner decisions; AI agents cannot guarantee the date."
+      ]
+    },
+    {
+      "number": "05", "title": "Budget and recurring costs", "tone": "amber",
+      "items": [
+        "<b>Planning example, not a quotation:</b> 200 developer hours × £30 = £6,000; 20% reserve = £1,200; AI/tools allowance £150; initial technology cash ~£318. <b>Total ~£7,668.</b> Replace the rate and hours with the developer's agreed quote.",
+        "<b>Technology:</b> base ~£70/month; allow <b>£85/month</b> initially or <b>£105/month</b> at VPS renewal. Includes modelled email/marketing, one mailbox, backups, monitoring, a domain and 100GB R2. KVM 4 offer: £239.76 prepaid for 24 months; £24.99/month equivalent at renewal. [4]",
+        "<b>Separate costs:</b> payment fees, VAT, stock, freight, premises, licences/professional review, insurance, staff, maintenance, advertising and campaign work. R2 overage: $0.015/GB-month above the 10GB Standard allowance, plus request overages. [5]"
+      ]
+    },
+    {
+      "number": "06", "title": "Later phases and exclusions", "tone": "blue",
+      "items": [
+        "<b>Later:</b> wider category/country activation, advanced B2B credit/approvals, ERP/carrier connectors, richer CRM/automation, loyalty/referrals and equipment service workflows. SMS/WhatsApp and medicines workflows require separate decisions.",
+        "<b>Outside the current build:</b> multi-vendor marketplace, dropshipping, native mobile apps, automated clinical prescribing, a custom email platform and copying competitor content without rights. Stripe is excluded."
+      ]
+    }
+  ],
+  "footer": "Day 1 starts on the agreed project date. Day 25 is a conditional release target, not completion of every future feature. Business name, legal operator, final budget and medicines route remain open.",
+  "sources": [
+    {"id":"1", "label":"UK product rules", "url":"https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk"},
+    {"id":"2", "label":"Consumer rights", "url":"https://www.gov.uk/accepting-returns-and-giving-refunds"},
+    {"id":"3", "label":"Google healthcare", "url":"https://support.google.com/merchants/answer/6150151?hl=en"},
+    {"id":"4", "label":"Hostinger offer", "url":"https://www.hostinger.com/uk/vps-hosting"},
+    {"id":"5", "label":"Cloudflare R2", "url":"https://developers.cloudflare.com/r2/pricing/"},
+    {"id":"6", "label":"WhatsApp policy", "url":"https://whatsappbusiness.com/policy/"}
+  ]
+}

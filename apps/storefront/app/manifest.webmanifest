@@ -1,0 +1,16 @@
+{
+  "id": "/",
+  "name": "Silver Medical UK",
+  "short_name": "Silver Medical",
+  "lang": "en-GB",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fafbf7",
+  "theme_color": "#082f26",
+  "icons": [
+    { "src": "/brand/identity/app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/brand/identity/app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/brand/identity/app-icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

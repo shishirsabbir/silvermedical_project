@@ -1,0 +1,324 @@
+[
+  {
+    "id": "C01",
+    "title": "GOV.UK online selling",
+    "url": "https://www.gov.uk/online-and-distance-selling-for-businesses/online-selling",
+    "checked": "9 Nov 2026",
+    "scope": "UK online checkout/disclosure/confirmation rules"
+  },
+  {
+    "id": "C02",
+    "title": "GOV.UK returns and refunds",
+    "url": "https://www.gov.uk/accepting-returns-and-giving-refunds",
+    "checked": "9 Nov 2026",
+    "scope": "UK consumer cancellation and faulty-goods guidance"
+  },
+  {
+    "id": "C03",
+    "title": "CMA price transparency",
+    "url": "https://www.gov.uk/government/publications/price-transparency-cma209/providing-clear-and-accurate-information-about-prices-summary",
+    "checked": "8 Nov 2026",
+    "scope": "Consumer total prices and unavoidable charges under current rules"
+  },
+  {
+    "id": "C04",
+    "title": "HMRC VAT registration",
+    "url": "https://www.gov.uk/register-for-vat",
+    "checked": "9 Nov 2026",
+    "scope": "UK establishment/turnover tests; entity-specific assessment needed"
+  },
+  {
+    "id": "C05",
+    "title": "HMRC VAT rates",
+    "url": "https://www.gov.uk/vat-rates",
+    "checked": "9 Nov 2026",
+    "scope": "UK standard and other VAT rates; not SKU classification"
+  },
+  {
+    "id": "C06",
+    "title": "HMRC disability relief",
+    "url": "https://www.gov.uk/guidance/reliefs-from-vat-for-disabled-and-older-people-notice-7017",
+    "checked": "8 Nov 2026",
+    "scope": "Qualifying goods/customer/use/evidence; indexed official text after timeout"
+  },
+  {
+    "id": "E01",
+    "title": "EU economic operators",
+    "url": "https://health.ec.europa.eu/medical-devices-topics-interest/economic-operators_en",
+    "checked": "9 Nov 2026",
+    "scope": "EU MDR/IVDR supply-chain roles; country dossiers still required"
+  },
+  {
+    "id": "E02",
+    "title": "European Commission VAT One Stop Shop",
+    "url": "https://vat-one-stop-shop.ec.europa.eu/one-stop-shop_en",
+    "checked": "9 Nov 2026",
+    "scope": "EU OSS/IOSS schemes; transaction and stock-location conditions"
+  },
+  {
+    "id": "E03",
+    "title": "European Accessibility Act",
+    "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+    "checked": "9 Nov 2026",
+    "scope": "EU ecommerce services; national implementation and exemptions"
+  },
+  {
+    "id": "E04",
+    "title": "EU packaging producer responsibility",
+    "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/packaging-waste/extended-producer-responsibility-packaging-small-businesses_en",
+    "checked": "9 Nov 2026",
+    "scope": "EU/national packaging duties; proposed suspension is not enacted exemption"
+  },
+  {
+    "id": "E05",
+    "title": "European Commission product safety",
+    "url": "https://commission.europa.eu/topics/business-and-industry/product-safety_en",
+    "checked": "9 Nov 2026",
+    "scope": "EU consumer product safety; sector-specific legislation considered separately"
+  },
+  {
+    "id": "E06",
+    "title": "EU low-value import duty guidance",
+    "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+    "checked": "9 Nov 2026",
+    "scope": "Affected low-value imports from 1 July 2026; official indexed guidance"
+  },
+  {
+    "id": "E07",
+    "title": "European Commission batteries",
+    "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en",
+    "checked": "9 Nov 2026",
+    "scope": "EU batteries; role-specific obligations, official indexed text"
+  },
+  {
+    "id": "E08",
+    "title": "Swedish authority: EEE producer responsibility",
+    "url": "https://www.naturvardsverket.se/en/guidance/extended-producer-responsibility-epr/producer-responsibility-for-electrical-and-electronic-equipment/",
+    "checked": "9 Nov 2026",
+    "scope": "Swedish WEEE implementation example; not clearance for other destinations"
+  },
+  {
+    "id": "M01",
+    "title": "Google Merchant healthcare",
+    "url": "https://support.google.com/merchants/answer/6150151?hl=en",
+    "checked": "9 Nov 2026",
+    "scope": "UK listings; pharmacy certification and restricted goods"
+  },
+  {
+    "id": "M02",
+    "title": "Google Ads healthcare",
+    "url": "https://support.google.com/adspolicy/answer/176031?hl=en",
+    "checked": "9 Nov 2026",
+    "scope": "UK online-pharmacy passage; separate advertising rules"
+  },
+  {
+    "id": "M03",
+    "title": "Google product data",
+    "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+    "checked": "9 Nov 2026",
+    "scope": "Feed identifiers and landing-page consistency"
+  },
+  {
+    "id": "M04",
+    "title": "Google misrepresentation",
+    "url": "https://support.google.com/merchants/answer/6150127?hl=en",
+    "checked": "9 Nov 2026",
+    "scope": "Identity, offer and account representations"
+  },
+  {
+    "id": "M05",
+    "title": "Google health audiences",
+    "url": "https://support.google.com/adspolicy/answer/16701855",
+    "checked": "9 Nov 2026",
+    "scope": "Sensitive-interest targeting"
+  },
+  {
+    "id": "M06",
+    "title": "WhatsApp Business policy",
+    "url": "https://whatsappbusiness.com/policy/",
+    "checked": "9 Nov 2026",
+    "scope": "Medical/healthcare restrictions, opt-in, templates and country exceptions"
+  },
+  {
+    "id": "P01",
+    "title": "ICO electronic-mail rules",
+    "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/",
+    "checked": "9 Nov 2026",
+    "scope": "UK electronic mail; official indexed consent/soft-opt-in passages"
+  },
+  {
+    "id": "P02",
+    "title": "ICO B2B marketing",
+    "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/",
+    "checked": "8 Nov 2026",
+    "scope": "Indexed official subscriber distinctions; direct page 403"
+  },
+  {
+    "id": "P03",
+    "title": "ICO special-category data",
+    "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data/",
+    "checked": "8 Nov 2026",
+    "scope": "Indexed Article 6/9 conditions; direct page 403"
+  },
+  {
+    "id": "P04",
+    "title": "ICO storage/access guidance",
+    "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/",
+    "checked": "7 Nov 2026",
+    "scope": "Tracking and exceptions; 8 Nov direct refresh blocked"
+  },
+  {
+    "id": "R01",
+    "title": "MHRA medical devices in GB",
+    "url": "https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk",
+    "checked": "9 Nov 2026",
+    "scope": "GB devices/IVDs; conformity and conditional CE transitions"
+  },
+  {
+    "id": "R02",
+    "title": "MHRA device registration",
+    "url": "https://www.gov.uk/guidance/register-medical-devices-to-place-on-the-market",
+    "checked": "8 Nov 2026",
+    "scope": "Registration/economic-operator arrangements; registration is not approval"
+  },
+  {
+    "id": "R03",
+    "title": "MHRA Northern Ireland devices",
+    "url": "https://www.gov.uk/guidance/medical-devices-eu-regulations-for-mdr-and-ivdr",
+    "checked": "9 Nov 2026",
+    "scope": "NI EU MDR/IVDR; role-specific requirements"
+  },
+  {
+    "id": "R04",
+    "title": "OPSS PPE guidance",
+    "url": "https://www.gov.uk/government/publications/personal-protective-equipment-enforcement-regulations-2018",
+    "checked": "9 Nov 2026",
+    "scope": "Separate GB/NI PPE guidance; intended purpose and operator duties"
+  },
+  {
+    "id": "R05",
+    "title": "HSE biocides",
+    "url": "https://www.hse.gov.uk/biocides/about/introduction.htm",
+    "checked": "9 Nov 2026",
+    "scope": "GB BPR and NI EU BPR; product boundaries"
+  },
+  {
+    "id": "R06",
+    "title": "MHRA medicines licensing",
+    "url": "https://www.gov.uk/guidance/apply-for-manufacturer-or-wholesaler-of-medicines-licences",
+    "checked": "9 Nov 2026",
+    "scope": "UK human medicines; manufacturing/wholesale permissions; direct guidance checked"
+  },
+  {
+    "id": "R07",
+    "title": "MHRA human medicine imports",
+    "url": "https://www.gov.uk/guidance/import-a-human-medicine",
+    "checked": "8 Nov 2026",
+    "scope": "Activity/origin-dependent import permissions"
+  },
+  {
+    "id": "R08",
+    "title": "MHRA medicines advertising",
+    "url": "https://www.gov.uk/guidance/advertise-your-medicines",
+    "checked": "9 Nov 2026",
+    "scope": "Public versus professional promotion of human medicines"
+  },
+  {
+    "id": "R09",
+    "title": "VMD online sales",
+    "url": "https://www.gov.uk/guidance/sell-veterinary-medicines-on-the-internet",
+    "checked": "9 Nov 2026",
+    "scope": "Veterinary medicine categories, premises, professionals and NI qualifications"
+  },
+  {
+    "id": "R11",
+    "title": "GPhC distance pharmacy guidance",
+    "url": "https://assets.pharmacyregulation.org/files/2025-02/gphc-guidance-registered-pharmacies-providing-pharmacy-services-distance-february-2025.pdf",
+    "checked": "9 Nov 2026",
+    "scope": "GB registered pharmacies; February 2025 guidance, professional responsibilities"
+  },
+  {
+    "id": "R12",
+    "title": "OPSS general product safety",
+    "url": "https://www.gov.uk/government/publications/general-product-safety-regulations-2005/general-product-safety-regulations-2005-great-britain",
+    "checked": "9 Nov 2026",
+    "scope": "GB general goods/uncovered risks; official indexed guidance"
+  },
+  {
+    "id": "S01",
+    "title": "Google: helpful, reliable content",
+    "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "checked": "9 Nov 2026",
+    "scope": "Organic Google Search; content quality principles"
+  },
+  {
+    "id": "S02",
+    "title": "Google: share ecommerce product data",
+    "url": "https://developers.google.com/search/docs/specialty/ecommerce/share-your-product-data-with-google",
+    "checked": "9 Nov 2026",
+    "scope": "Organic product discovery, structured data and Merchant Center"
+  },
+  {
+    "id": "S03",
+    "title": "Bing Webmaster Guidelines",
+    "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a",
+    "checked": "9 Nov 2026",
+    "scope": "Official indexed guidelines; direct page is a JavaScript shell"
+  },
+  {
+    "id": "T01",
+    "title": "Hostinger UK KVM offer",
+    "url": "https://www.hostinger.com/uk/vps-hosting",
+    "checked": "9 Nov 2026",
+    "scope": "Published specifications, upfront term and renewal; checkout unverified"
+  },
+  {
+    "id": "T02",
+    "title": "Cloudflare R2 pricing",
+    "url": "https://developers.cloudflare.com/r2/pricing/",
+    "checked": "9 Nov 2026",
+    "scope": "Standard storage/operations, shared free allowances and rounding"
+  },
+  {
+    "id": "T03",
+    "title": "Cloudflare Registrar",
+    "url": "https://www.cloudflare.com/domains/",
+    "checked": "9 Nov 2026",
+    "scope": "At-cost registration model; exact name/TLD not quoted"
+  },
+  {
+    "id": "T04",
+    "title": "Resend pricing example",
+    "url": "https://resend.com/pricing",
+    "checked": "9 Nov 2026",
+    "scope": "Unselected transactional-email example; no catalogue approval established"
+  },
+  {
+    "id": "T07",
+    "title": "PayPal UK acceptable use",
+    "url": "https://www.paypal.com/uk/legalhub/paypal/acceptableuse-full",
+    "checked": "9 Nov 2026",
+    "scope": "Approval requirements for medical devices/prescription items"
+  },
+  {
+    "id": "T08",
+    "title": "Revolut wallet integration",
+    "url": "https://developer.revolut.com/docs/guides/merchant/accept-payments/online-payments/apple-pay-google-pay/introduction",
+    "checked": "9 Nov 2026",
+    "scope": "Active Merchant-account Apple Pay/Google Pay support"
+  },
+  {
+    "id": "T09",
+    "title": "Next.js self-hosting",
+    "url": "https://nextjs.org/docs/app/guides/self-hosting",
+    "checked": "9 Nov 2026",
+    "scope": "Reverse proxy, cache persistence and instance coordination"
+  },
+  {
+    "id": "T10",
+    "title": "Nest HTTP adapters",
+    "url": "https://docs.nestjs.com/techniques/performance",
+    "checked": "9 Nov 2026",
+    "scope": "Fastify adapter and compatibility"
+  }
+]

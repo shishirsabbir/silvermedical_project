@@ -1,0 +1,44 @@
+[
+  {
+    "id": "B01",
+    "title": "UK Intellectual Property Office: trade-mark search",
+    "url": "https://www.gov.uk/search-for-trademark",
+    "checked": "9 November 2026",
+    "scope": "UK preliminary name/logo search; not comprehensive clearance or EU protection."
+  },
+  {
+    "id": "R01",
+    "title": "MHRA: regulating medical devices in the UK",
+    "url": "https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk",
+    "checked": "9 November 2026",
+    "scope": "Medical devices/IVDs; distinct GB/NI routes, operator and labelling responsibilities. Other product routes remain separately reviewed."
+  },
+  {
+    "id": "C01",
+    "title": "GOV.UK: online selling",
+    "url": "https://www.gov.uk/online-and-distance-selling-for-businesses/online-selling",
+    "checked": "9 November 2026",
+    "scope": "UK ecommerce order information, prices, payment obligations, terms and confirmation."
+  },
+  {
+    "id": "M01",
+    "title": "Google Merchant Center: healthcare and medicines",
+    "url": "https://support.google.com/merchants/answer/6150151?hl=en",
+    "checked": "9 November 2026",
+    "scope": "Merchant product/country restrictions; store eligibility does not imply Google listing approval."
+  },
+  {
+    "id": "Q01",
+    "title": "Core Web Vitals",
+    "url": "https://web.dev/articles/vitals",
+    "checked": "9 November 2026",
+    "scope": "Field p75 LCP, INP and CLS definitions/thresholds; inherited from the technical specification research."
+  },
+  {
+    "id": "Q02",
+    "title": "Lighthouse scoring documentation",
+    "url": "https://github.com/GoogleChrome/lighthouse/blob/main/docs/scoring.md",
+    "checked": "9 November 2026",
+    "scope": "Automated audit score interpretation; 100 SEO is a proposed project target, not a Google ranking score."
+  }
+]

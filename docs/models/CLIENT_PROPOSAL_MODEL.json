@@ -1,0 +1,36 @@
+{
+  "status": "Illustrative model, not accepted quote or measured capacity",
+  "issued": "2026-11-09",
+  "assumed_start": "2026-11-15",
+  "date_rule": "Phase 1: start + 25 elapsed days; subsequent: prior release + one calendar month + 10 days; no weekend/holiday adjustment",
+  "release_dates": [
+    "2026-12-10",
+    "2027-01-20",
+    "2027-03-02",
+    "2027-04-12"
+  ],
+  "six_month_trading_review": "2027-06-10",
+  "human_hours": {
+    "low": 680,
+    "working": 760,
+    "high": 880
+  },
+  "ai_million_tokens": {
+    "low": 70,
+    "working": 110,
+    "high": 150,
+    "working_input": 95,
+    "working_output": 15
+  },
+  "usd_per_gbp_assumption": 1.25,
+  "monthly_usd": {
+    "initial_services": 50.92,
+    "renewal_services": 69.67,
+    "initial_with_reserve": 60.92,
+    "renewal_with_reserve": 79.67,
+    "initial_tax_sensitivity_plus_reserve": 71.11,
+    "renewal_tax_sensitivity_plus_reserve": 93.61
+  },
+  "initial_tech_cash_before_tax_reserve_usd": 361.05,
+  "development_fee": "Omitted at user's request"
+}

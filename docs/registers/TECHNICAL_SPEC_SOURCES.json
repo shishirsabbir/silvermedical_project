@@ -1,0 +1,345 @@
+[
+  {
+    "id": "A11Y01",
+    "title": "WCAG 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "checked": "9 Nov 2026",
+    "scope": "Accessibility recommendation; AA is a proposed implementation target"
+  },
+  {
+    "id": "AU01",
+    "title": "Better Auth Fastify integration",
+    "url": "https://better-auth.com/docs/integrations/fastify",
+    "checked": "9 Nov 2026",
+    "scope": "Library integration; proposed Nest/dual-realm design needs a spike"
+  },
+  {
+    "id": "AU02",
+    "title": "Better Auth sessions",
+    "url": "https://better-auth.com/docs/concepts/session-management",
+    "checked": "9 Nov 2026",
+    "scope": "Database sessions and optional cookie cache; custom policy is project-specific"
+  },
+  {
+    "id": "AU03",
+    "title": "Better Auth email/password",
+    "url": "https://better-auth.com/docs/authentication/email-password",
+    "checked": "9 Nov 2026",
+    "scope": "Verification, password reset and account-enumeration configuration"
+  },
+  {
+    "id": "AU04",
+    "title": "Better Auth security",
+    "url": "https://better-auth.com/docs/reference/security",
+    "checked": "9 Nov 2026",
+    "scope": "Scrypt and library security features; deployment configuration remains required"
+  },
+  {
+    "id": "AU05",
+    "title": "Better Auth two-factor plugin",
+    "url": "https://better-auth.com/docs/plugins/2fa",
+    "checked": "9 Nov 2026",
+    "scope": "TOTP and backup-code capabilities; mandatory staff enforcement is application policy"
+  },
+  {
+    "id": "AU06",
+    "title": "Better Auth cookies",
+    "url": "https://better-auth.com/docs/concepts/cookies",
+    "checked": "9 Nov 2026",
+    "scope": "Session identifiers, cookie configuration and cache distinction"
+  },
+  {
+    "id": "C01",
+    "title": "GOV.UK online selling",
+    "url": "https://www.gov.uk/online-and-distance-selling-for-businesses/online-selling",
+    "checked": "9 Nov 2026",
+    "scope": "UK online checkout/disclosure/confirmation rules"
+  },
+  {
+    "id": "C02",
+    "title": "GOV.UK returns and refunds",
+    "url": "https://www.gov.uk/accepting-returns-and-giving-refunds",
+    "checked": "9 Nov 2026",
+    "scope": "UK consumer cancellation and faulty-goods guidance"
+  },
+  {
+    "id": "CF01",
+    "title": "R2 public buckets",
+    "url": "https://developers.cloudflare.com/r2/buckets/public-buckets/",
+    "checked": "9 Nov 2026",
+    "scope": "Public media custom domain; private evidence must remain separate"
+  },
+  {
+    "id": "CF02",
+    "title": "R2 pricing",
+    "url": "https://developers.cloudflare.com/r2/pricing/",
+    "checked": "9 Nov 2026",
+    "scope": "Standard storage and operation allowances; usage, region/tax and provider terms matter"
+  },
+  {
+    "id": "DB01",
+    "title": "PostgreSQL explicit locking",
+    "url": "https://www.postgresql.org/docs/current/explicit-locking.html",
+    "checked": "9 Nov 2026",
+    "scope": "Database concurrency and row-lock behaviour"
+  },
+  {
+    "id": "DB02",
+    "title": "Prisma transactions",
+    "url": "https://www.prisma.io/docs/orm/fundamentals/transactions",
+    "checked": "9 Nov 2026",
+    "scope": "Transaction patterns; selected runtime/adapter needs verification"
+  },
+  {
+    "id": "DB03",
+    "title": "PostgreSQL continuous archiving",
+    "url": "https://www.postgresql.org/docs/current/continuous-archiving.html",
+    "checked": "9 Nov 2026",
+    "scope": "Base backups, WAL archiving and point-in-time recovery"
+  },
+  {
+    "id": "IM01",
+    "title": "Sharp documentation",
+    "url": "https://sharp.pixelplumbing.com/",
+    "checked": "9 Nov 2026",
+    "scope": "Upload-time image resizing and encoding"
+  },
+  {
+    "id": "JB01",
+    "title": "pg-boss official repository",
+    "url": "https://github.com/timgit/pg-boss",
+    "checked": "9 Nov 2026",
+    "scope": "PostgreSQL-backed job processing; external side effects still need idempotency"
+  },
+  {
+    "id": "M01",
+    "title": "Google Merchant healthcare",
+    "url": "https://support.google.com/merchants/answer/6150151?hl=en",
+    "checked": "9 Nov 2026",
+    "scope": "UK listings; pharmacy certification and restricted goods"
+  },
+  {
+    "id": "M03",
+    "title": "Google product data",
+    "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+    "checked": "9 Nov 2026",
+    "scope": "Feed identifiers and landing-page consistency"
+  },
+  {
+    "id": "M04",
+    "title": "Google misrepresentation",
+    "url": "https://support.google.com/merchants/answer/6150127?hl=en",
+    "checked": "9 Nov 2026",
+    "scope": "Identity, offer and account representations"
+  },
+  {
+    "id": "M05",
+    "title": "Google health audiences",
+    "url": "https://support.google.com/adspolicy/answer/16701855",
+    "checked": "9 Nov 2026",
+    "scope": "Sensitive-interest targeting"
+  },
+  {
+    "id": "M06",
+    "title": "WhatsApp Business policy",
+    "url": "https://whatsappbusiness.com/policy/",
+    "checked": "9 Nov 2026",
+    "scope": "Medical/healthcare restrictions, opt-in, templates and country exceptions"
+  },
+  {
+    "id": "NE01",
+    "title": "NestJS Fastify adapter",
+    "url": "https://docs.nestjs.com/techniques/performance",
+    "checked": "9 Nov 2026",
+    "scope": "Official HTTP adapter and compatibility guidance"
+  },
+  {
+    "id": "NX01",
+    "title": "Next.js self-hosting",
+    "url": "https://nextjs.org/docs/app/guides/self-hosting",
+    "checked": "9 Nov 2026",
+    "scope": "Self-hosted App Router, proxy, cache and deployment behaviour"
+  },
+  {
+    "id": "OW01",
+    "title": "OWASP session management",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
+    "checked": "9 Nov 2026",
+    "scope": "General web-session engineering guidance; numeric limits here are proposals"
+  },
+  {
+    "id": "OW02",
+    "title": "OWASP authentication",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+    "checked": "9 Nov 2026",
+    "scope": "Authentication, password and recovery engineering guidance"
+  },
+  {
+    "id": "OW03",
+    "title": "OWASP CSRF prevention",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html",
+    "checked": "9 Nov 2026",
+    "scope": "Cookie-based web request protection"
+  },
+  {
+    "id": "P01",
+    "title": "ICO electronic-mail rules",
+    "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/",
+    "checked": "9 Nov 2026",
+    "scope": "UK electronic mail; official indexed consent/soft-opt-in passages"
+  },
+  {
+    "id": "P03",
+    "title": "ICO special-category data",
+    "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-are-the-rules-on-special-category-data/",
+    "checked": "8 Nov 2026",
+    "scope": "Indexed Article 6/9 conditions; direct page 403"
+  },
+  {
+    "id": "P04",
+    "title": "ICO storage/access guidance",
+    "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/",
+    "checked": "7 Nov 2026",
+    "scope": "Tracking and exceptions; 8 Nov direct refresh blocked"
+  },
+  {
+    "id": "PAY01",
+    "title": "Revolut Merchant API",
+    "url": "https://developer.revolut.com/docs/api/merchant/2026-03-12",
+    "checked": "9 Nov 2026",
+    "scope": "Merchant integration contracts; account/catalogue acceptance is a separate dependency"
+  },
+  {
+    "id": "PAY02",
+    "title": "PayPal webhooks",
+    "url": "https://developer.paypal.com/api/rest/webhooks/",
+    "checked": "9 Nov 2026",
+    "scope": "Payment-event integration; verify current account/API version"
+  },
+  {
+    "id": "PAY03",
+    "title": "PayPal REST webhook verification",
+    "url": "https://developer.paypal.com/api/rest/webhooks/rest/",
+    "checked": "9 Nov 2026",
+    "scope": "Authenticity verification and webhook handling"
+  },
+  {
+    "id": "QA01",
+    "title": "Playwright documentation",
+    "url": "https://playwright.dev/docs/intro",
+    "checked": "9 Nov 2026",
+    "scope": "Browser automation for functional and journey verification"
+  },
+  {
+    "id": "QA02",
+    "title": "Grafana k6 test types",
+    "url": "https://grafana.com/docs/k6/latest/testing-guides/test-types/",
+    "checked": "9 Nov 2026",
+    "scope": "Load-test design; workload and thresholds are project assumptions"
+  },
+  {
+    "id": "R01",
+    "title": "MHRA medical devices in GB",
+    "url": "https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk",
+    "checked": "9 Nov 2026",
+    "scope": "GB devices/IVDs; conformity and conditional CE transitions"
+  },
+  {
+    "id": "R03",
+    "title": "MHRA Northern Ireland devices",
+    "url": "https://www.gov.uk/guidance/medical-devices-eu-regulations-for-mdr-and-ivdr",
+    "checked": "9 Nov 2026",
+    "scope": "NI EU MDR/IVDR; role-specific requirements"
+  },
+  {
+    "id": "S01",
+    "title": "Google: helpful, reliable content",
+    "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "checked": "9 Nov 2026",
+    "scope": "Organic Google Search; content quality principles"
+  },
+  {
+    "id": "S03",
+    "title": "Bing Webmaster Guidelines",
+    "url": "https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a",
+    "checked": "9 Nov 2026",
+    "scope": "Official indexed guidelines; direct page is a JavaScript shell"
+  },
+  {
+    "id": "SEO01",
+    "title": "Core Web Vitals",
+    "url": "https://web.dev/articles/vitals",
+    "checked": "9 Nov 2026",
+    "scope": "Field LCP, INP and CLS thresholds at the 75th percentile"
+  },
+  {
+    "id": "SEO02",
+    "title": "Lighthouse scoring",
+    "url": "https://github.com/GoogleChrome/lighthouse/blob/main/docs/scoring.md",
+    "checked": "9 Nov 2026",
+    "scope": "Automated category scoring; not a search-ranking score"
+  },
+  {
+    "id": "SEO03",
+    "title": "Lighthouse performance scoring",
+    "url": "https://developer.chrome.com/docs/lighthouse/performance/performance-scoring",
+    "checked": "9 Nov 2026",
+    "scope": "Lab metric weighting and score interpretation"
+  },
+  {
+    "id": "SEO04",
+    "title": "Google page experience",
+    "url": "https://developers.google.com/search/docs/appearance/page-experience",
+    "checked": "9 Nov 2026",
+    "scope": "Search page-experience guidance; no single overall ranking score"
+  },
+  {
+    "id": "SEO05",
+    "title": "Google product structured data",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/product",
+    "checked": "9 Nov 2026",
+    "scope": "Product search presentation; rich-result appearance is not guaranteed"
+  },
+  {
+    "id": "SEO06",
+    "title": "Ecommerce URL structure",
+    "url": "https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites",
+    "checked": "9 Nov 2026",
+    "scope": "Canonical URLs, navigation and ecommerce crawling"
+  },
+  {
+    "id": "SEO07",
+    "title": "Google noindex guidance",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+    "checked": "9 Nov 2026",
+    "scope": "Crawl/index controls; robots.txt is not access control"
+  },
+  {
+    "id": "T01",
+    "title": "Hostinger UK KVM offer",
+    "url": "https://www.hostinger.com/uk/vps-hosting",
+    "checked": "9 Nov 2026",
+    "scope": "Published specifications, upfront term and renewal; checkout unverified"
+  },
+  {
+    "id": "T07",
+    "title": "PayPal UK acceptable use",
+    "url": "https://www.paypal.com/uk/legalhub/paypal/acceptableuse-full",
+    "checked": "9 Nov 2026",
+    "scope": "Approval requirements for medical devices/prescription items"
+  },
+  {
+    "id": "T12",
+    "title": "Gmail sender guidelines",
+    "url": "https://support.google.com/mail/answer/81126?hl=en",
+    "checked": "8 Nov 2026",
+    "scope": "Personal Gmail authentication and bulk-sender requirements"
+  },
+  {
+    "id": "VI01",
+    "title": "Vite guide",
+    "url": "https://vite.dev/guide/",
+    "checked": "9 Nov 2026",
+    "scope": "Frontend build tooling; exact compatible versions to be pinned"
+  }
+]

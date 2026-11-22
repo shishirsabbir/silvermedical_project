@@ -1,0 +1,182 @@
+[
+  {
+    "id": "F01",
+    "name": "Brand and responsive website",
+    "deliverable": "Selected brand applied to home, navigation, category, product, basket and checkout; desktop/mobile and essential error/loading states.",
+    "planned_days": "1-8",
+    "acceptance": "Owner approves the chosen design and can shop on a phone.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F02",
+    "name": "Catalogue and discovery",
+    "deliverable": "Categories, keyword/SKU search, essential filters, pagination and clear in-stock/out-of-stock display.",
+    "planned_days": "6-8",
+    "acceptance": "A buyer finds a known item by SKU and category.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F03",
+    "name": "Accurate product pages",
+    "deliverable": "Images, manufacturer reference, variant/pack size, approved description, applicable documents, price/tax and delivery information.",
+    "planned_days": "4-8",
+    "acceptance": "Page matches the physical item and approved product record.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F04",
+    "name": "Guest and customer accounts",
+    "deliverable": "Guest buying, verified-email registration, sign-in/reset, saved addresses and own order history.",
+    "planned_days": "3-12",
+    "acceptance": "Customers can buy and view only their own orders.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F05",
+    "name": "Professional purchase controls",
+    "deliverable": "Application and human verification, reviewer notes, approved entitlement and server-side restricted-item checks.",
+    "planned_days": "3-8",
+    "acceptance": "A pending or ineligible buyer cannot pay for a restricted item.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F06",
+    "name": "Basket and checkout",
+    "deliverable": "Quantity changes, authoritative prices/stock, tax/delivery totals, address validation, final review and clear payment confirmation.",
+    "planned_days": "9-11",
+    "acceptance": "Altered browser prices and unavailable quantities are rejected.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F07",
+    "name": "Revolut and wallets",
+    "deliverable": "Revolut checkout with Apple Pay/Google Pay where approved and supported; verified payment events and failure/retry handling.",
+    "planned_days": "5-10",
+    "acceptance": "Supported device/browser completes a verified test payment; failures do not dispatch.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F08",
+    "name": "PayPal",
+    "deliverable": "PayPal checkout, verified capture/refund events and order reconciliation.",
+    "planned_days": "11-14",
+    "acceptance": "Duplicate or late events cannot cause duplicate dispatch/refund.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F09",
+    "name": "Customer information and email",
+    "deliverable": "Seller/contact pages, delivery/returns/privacy/terms, order confirmation, dispatch and refund messages.",
+    "planned_days": "13-17",
+    "acceptance": "Customer receives correct totals, terms and useful order updates.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F10",
+    "name": "Search and consent foundation",
+    "deliverable": "Metadata/canonicals, sitemap, product data, mobile accessibility, consent/preferences and approved-product feed export.",
+    "planned_days": "16-20",
+    "acceptance": "Audits pass; rejected tracking stays off; ineligible items stay out of feeds.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F11",
+    "name": "Secure staff workspace",
+    "deliverable": "Invite-only staff, MFA, role checks, audit history and a focused order/review/stock dashboard.",
+    "planned_days": "3-5",
+    "acceptance": "Customer credentials cannot enter admin or change staff permissions.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F12",
+    "name": "Product management and imports",
+    "deliverable": "Create/edit/archive products, categories, prices, variants and evidence; CSV draft import with errors/duplicates and preview.",
+    "planned_days": "4-15",
+    "acceptance": "250 planned records can be reviewed; an additional product needs no code change.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F13",
+    "name": "Images and documents",
+    "deliverable": "Upload-time validation/optimisation, prepared responsive images in R2 and separately protected private evidence.",
+    "planned_days": "4-7",
+    "acceptance": "Approved media loads quickly; private evidence has no public URL.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F14",
+    "name": "Stock and traceability",
+    "deliverable": "Receipt/opening counts, adjustments, reservations, applicable lot/serial/expiry, quarantine and a movement audit trail.",
+    "planned_days": "4-14",
+    "acceptance": "Last-unit contention cannot oversell; held/expired stock cannot be bought.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F15",
+    "name": "Orders and dispatch",
+    "deliverable": "Paid/held/failed queues, pick/pack record, manual carrier booking/tracking entry and partial fulfilment where needed.",
+    "planned_days": "12-14",
+    "acceptance": "Staff can trace order lines to the stock dispatched.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F16",
+    "name": "Returns and refunds",
+    "deliverable": "Return request logging, authorised full/partial refunds, returned-stock quarantine and recall/hold records.",
+    "planned_days": "11-14",
+    "acceptance": "Refund amount never exceeds captured funds less previous refunds.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F17",
+    "name": "Financial records and exports",
+    "deliverable": "Order/invoice/credit-note records, tax snapshots, basic sales/stock exports and payment reconciliation exceptions.",
+    "planned_days": "13-17",
+    "acceptance": "Finance can reconcile an order, refund and provider settlement reference.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F18",
+    "name": "Product/channel approval",
+    "deliverable": "Draft/review/approved/held states; distinct territory, buyer, payment and feed eligibility.",
+    "planned_days": "4-18",
+    "acceptance": "A suspended item cannot remain purchasable through an old URL or basket.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F19",
+    "name": "Hosting and recovery",
+    "deliverable": "Hostinger apps/API/PostgreSQL; Cloudflare domain/R2; TLS, private database, secrets, logs, alerts, backups and tested restore.",
+    "planned_days": "2-23",
+    "acceptance": "A clean environment can restore an order and stock history from backup.",
+    "status": "planned",
+    "evidence": null
+  },
+  {
+    "id": "F20",
+    "name": "Training and launch controls",
+    "deliverable": "Owner walkthrough, staff SOPs, defect log, deployment/rollback procedure and release evidence.",
+    "planned_days": "19-25",
+    "acceptance": "Business team completes receive -> publish -> buy -> ship -> refund.",
+    "status": "planned",
+    "evidence": null
+  }
+]

@@ -1,0 +1,55 @@
+.edit-header-actions a { display: inline-flex; align-items: center; justify-content: center; gap: .4rem; padding: .6rem .35rem; min-height: 44px; font-weight: 650; font-size: .875rem; }
+.edit-header a:focus-visible, .edit-footer a:focus-visible, .edit-header button:focus-visible { outline-color: #d9ecbc; }
+.edit-header .sm-demo-entry { text-decoration: underline; text-underline-offset: .2em; }
+.edit-preview-links { display: flex; align-items: center; flex-wrap: wrap; column-gap: var(--sm-space-4); }
+.edit-preview-links a { display: inline-flex; align-items: center; min-height: 2rem; }
+.edit-preview-links .edit-design-link { gap: .4rem; font-weight: 650; }
+.edit-footer p { margin: .4rem 0; }
+.edit-footer h2 { margin: 0 0 .5rem; }
+.edit-shell.edit-footer__legal { align-items: center; }
+.store-page { width: min(75rem, calc(100% - clamp(2rem, 9vw, 8rem))); margin: 0 auto; padding: clamp(2.5rem, 6vw, 5.5rem) 0; }
+.store-page h1, .store-page h2 { font-family: var(--sm-serif); font-weight: 500; line-height: 1.04; letter-spacing: -.035em; }
+.store-page h1 { font-size: clamp(3rem, 6.6vw, 6rem); margin: .25em 0; }
+.store-page h2 { font-size: clamp(2rem, 3.4vw, 3.2rem); }
+.store-page .lede { max-width: 58ch; color: var(--sm-muted); line-height: 1.7; margin-bottom: 2rem; }
+.store-page a:focus-visible { outline-offset: .2rem; }
+.store-crumb { display:flex; gap:.55rem; flex-wrap:wrap; font-size:.82rem; color:var(--sm-muted); }
+.store-crumb a { text-underline-offset:.2em; }
+.store-demo-hero { display:grid; grid-template-columns:1fr 1fr; background:var(--sm-deep); color:var(--sm-paper); margin:1.7rem 0 2.75rem; }
+.store-demo-hero > div { padding:clamp(1.5rem,4vw,4rem); align-self:center; }
+.store-demo-hero h1 { font-size:clamp(2.75rem,5.5vw,5.2rem); }
+.store-demo-hero p:not(.edit-eyebrow) { line-height:1.75; color:#d3e1d5; max-width:42ch; }
+.store-demo-hero img { display:block; width:100%; height:100%; object-fit:cover; min-height:18rem; }
+.store-demo-hero .sm-button { margin-top:.6rem; }
+.store-workflows { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); border-top:1px solid var(--sm-line); }
+.store-workflow { padding:1.55rem 1.4rem 1.75rem 0; border-bottom:1px solid var(--sm-line); }
+.store-workflow h2 { font:550 1.65rem var(--sm-serif); margin:.45rem 0; }
+.store-workflow p { color:var(--sm-muted); font-size:.94rem; max-width:38ch; margin:.2rem 0 .9rem; }
+.store-workflow a, .store-page .store-action { font-weight:650; font-size:.875rem; text-underline-offset:.24rem; }
+.store-guides { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+.store-guide { background:#eef2eb; padding:clamp(1.2rem,2.6vw,2.4rem); }
+.store-guide h2 { font-size:2.2rem; margin:.6rem 0; }
+.store-guide p { color:var(--sm-muted); }
+.store-article { max-width:48rem; }
+.store-article section { border-top:1px solid var(--sm-line); margin:1.6rem 0; }
+.store-article section p { line-height:1.8; }
+.store-system-state { min-height:45vh; }
+.store-mail { max-width:43rem; }
+.store-mail .sm-field { max-width:20rem; margin-bottom:1.25rem; }
+.store-mail article { border:1px solid var(--sm-line); background:#fff; }
+.store-mail-banner { display:block; width:100%; height:auto; }
+.store-mail-body { padding:clamp(1.25rem,4vw,3rem); }
+.store-mail-body h2 { margin:.6rem 0; }
+.store-mail-body ul { padding:0; list-style:none; margin:1.75rem 0 0; }
+.store-mail-body li,.store-mail-total { display:flex; gap:1rem; justify-content:space-between; align-items:baseline; padding:.75rem 0; border-block-start:1px solid var(--sm-line); }
+@media(max-width:60rem) { .store-workflows { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:48rem) {
+ .edit-masthead > a { width:min(38%,10rem); }
+ .edit-header-actions { gap:0; }
+ .edit-header-actions a { min-width:38px; padding-inline:.32rem; }
+ .edit-header-actions .edit-count { min-width:1.2rem; height:1.2rem; }
+ .store-demo-hero,.store-guides { grid-template-columns:1fr; }
+ .store-demo-hero img { max-height:18rem; min-height:0; }
+}
+@media(max-width:34rem) { .store-workflows { grid-template-columns:1fr; } }
+

@@ -1,0 +1,18 @@
+{
+  "method": "Built-in imagegen",
+  "purpose": "Illustrative concept imagery; not verified product photography",
+  "prompts": [
+    {
+      "key": "editorial",
+      "prompt": "Use case: product-mockup. Create a premium campaign still life photograph for Silver Medical, a medical supplies ecommerce homepage. Wide landscape 3:2 image. On a deep dark emerald green seamless studio background, beautifully compose a real stainless steel diagnostic otoscope, a dark forest green dual-head stethoscope with brushed silver chestpiece, neatly rolled ivory gauze and a subtle metallic instrument tray. Art-directed luxury industrial photography, tangible silicone and brushed stainless steel, soft directional daylight from the upper left with elegant shadows, highly realistic, no CGI. Entire composition in right two thirds, left one third clean deep emerald negative space. Objects on low emerald sculptural blocks, restrained polished silver highlights. No writing, no logos, no text, no people, no watermark. Brand aesthetic like a premium architectural design publication photographed a set of medical tools."
+    },
+    {
+      "key": "clinic",
+      "prompt": "Use case: photorealistic-natural. Create a high-end architectural editorial photograph for a premium UK medical equipment website. Wide 3:2 landscape. A beautifully designed contemporary British medical consultation room, calm daylight, sage and deep forest green cabinetry, off-white walls, a cream examination couch with dark green adjustable base on right, tasteful oak accents, stainless steel medical trolley with neatly arranged practical medical instruments on left. Realistic discreet clinical room, not a spa. Large window on left casting soft long daylight shadows, simple framing with depth and natural material texture, no people, no plants, no signage, no letters, no text. Professional architectural photographer, shot at human eye height, clean but lived-in care environment."
+    },
+    {
+      "key": "products",
+      "prompt": "Use case: product-mockup. A precision product catalogue contact sheet, landscape 3:2 aspect ratio, exactly THREE equal columns and TWO equal rows filling the entire canvas. Each of the six cells has identical very light cool grey seamless studio background, no visible divider, no text or labels. Each object fully inside its own cell with generous equal whitespace and fine realistic contact shadows. Top-left cell: a forest green dual-head medical stethoscope coiled gracefully, brushed silver chestpiece. Top-middle cell: a pair of neatly arranged cobalt blue nitrile examination gloves beside a plain white rectangular dispenser box with no text. Top-right cell: a brushed stainless steel diagnostic otoscope with dark charcoal handle and black ear tip, laid diagonally. Bottom-left cell: a digital blood pressure monitor with blank dark grey screen beside its neatly folded charcoal cuff. Bottom-middle cell: a small tidy stack of white gauze dressings with one rolled white bandage. Bottom-right cell: three stainless steel instruments including dressing scissors, tweezers and forceps neatly arranged parallel. High-end photoreal commercial product photography, consistent soft shadows and view from 45 degrees above, crisp material details. No words, no logos, no grids drawn, no watermarks, no collage edges, six separate groups perfectly centered at 1/6, 1/2, 5/6 of width and 1/4, 3/4 of height."
+    }
+  ]
+}

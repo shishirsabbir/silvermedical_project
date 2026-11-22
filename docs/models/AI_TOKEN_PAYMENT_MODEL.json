@@ -1,0 +1,44 @@
+{
+  "issued": "2026-11-10",
+  "revision": 5,
+  "status": "Informational AI development cost estimate; usage unmeasured; no funding or payment request",
+  "estimated_total_usd": "1555.56",
+  "developer_fee_usd": "0.00",
+  "development_days": 25,
+  "minimum_planned_agents": 10,
+  "agent_requirement_status": "Developer's planned minimum for the target, not empirically proven capacity or purchased concurrency",
+  "agents": ["Architecture and coordination", "Brand and UX design", "Next.js storefront", "API and commerce rules", "PostgreSQL and inventory", "React admin workspace", "Catalogue and media imports", "Payments and order integrations", "Testing and security review", "Deployment, recovery and handover"],
+  "workload_assumptions": {
+    "cycles_per_agent_day": 20,
+    "aggregate_input_tokens_per_cycle": 105000,
+    "aggregate_output_tokens_per_cycle": 21400,
+    "total_cycles": 5000,
+    "total_input_tokens": 525000000,
+    "total_output_tokens": 107000000,
+    "selection_basis": "Illustrative sensitivity scenario chosen to present non-round comparison totals; not measured usage or evidence of higher actual costs. Same quantities applied to every model.",
+    "cycle_definition": "An assumed aggregate implement/review/debug cycle may contain several API calls; cumulative billed quantities, not a single prompt size",
+    "measured": false,
+    "billing_assumptions": "Standard synchronous text API, uncached input and billed output/reasoning; no batch, promotion or cache savings; exclude tax/tool charges"
+  },
+  "rates_usd_per_million_tokens": [
+    {"id":"qwen", "model":"qwen3.8-max-0902", "display":"Qwen 3.8 Max", "scope":"Germany (Frankfurt), Global deployment, <=1M input/request", "input":"1.65", "output":"4.951", "source":"S1"},
+    {"id":"openai_chat", "model":"chat-latest", "display":"ChatGPT API: chat-latest", "scope":"Direct API, standard short-context", "input":"5", "output":"30", "source":"S2"},
+    {"id":"claude_opus", "model":"claude-opus-5-5", "display":"Claude Opus 5.5", "scope":"Direct API, standard base tokens", "input":"4", "output":"20", "source":"S3"},
+    {"id":"openai_sol", "model":"gpt-6.1-sol", "display":"OpenAI GPT-6.1 Sol", "scope":"Direct API, standard short-context", "input":"2", "output":"10", "source":"S2"},
+    {"id":"claude_sonnet", "model":"claude-sonnet-5-5", "display":"Claude Sonnet 5.5", "scope":"Direct API, standard base tokens", "input":"2", "output":"10", "source":"S3"}
+  ],
+  "qwen_base_estimate_usd": "1396.01",
+  "uncommitted_usage_reserve_usd": "159.55",
+  "reserve_basis": "Total estimate less modeled Qwen base; unmeasured allowance for extra tokens, tier/rate changes or selective premium review.",
+  "routing": "Qwen mostly; selective premium review within reserve, no fixed premium tokens included in base",
+  "rmb": {
+    "fx_date": "2026-11-09", "eur_cny": "7.4689", "eur_usd": "1.1193",
+    "cross_rate_formula": "CNY/USD = 7.4689 / 1.1193",
+    "basis": "Latest populated ECB reference date observed on 2026-11-10; indicative, not settlement quote",
+    "separate_direct_qwen_rmb_tariff": {"input_per_million":"12", "output_per_million":"36", "scope":"Aliyun RMB tariff, Frankfurt/global or Beijing; different account/billing route, not substituted into USD baseline", "source":"S4"}
+  },
+  "scope": "Most agreed core platform foundation and essential launch features targeted in 25 days; later extend systems. Not a measured percentage of all four phases or guarantee of external approvals.",
+  "comparison_limit": "USD5835/4240 are illustrative premium-model scenarios for equal assumed billed counts, not universal provider costs or measured forecasts. Tokenizers, quality, retries and caching differ. Lower-priced alternatives exist.",
+  "cost_tracking": ["Pilot/recalibrate Day 5", "Usage/scope reviews Days 15 and 25", "Record actual tokens/rates/charges", "Update forecast using measured consumption"],
+  "unknowns": ["Measured throughput/tokens", "Account/region eligibility and quotas for ten workstreams", "Pinned model access/availability", "Taxes/FX/fees"]
+}

@@ -1,0 +1,19 @@
+{
+  "revision": 5,
+  "source_checked": "2026-11-10",
+  "cycles": 5000,
+  "input_millions": "525",
+  "output_millions": "107",
+  "costs_usd": {
+    "qwen": "1,396.01",
+    "openai_chat": "5,835.00",
+    "claude_opus": "4,240.00",
+    "openai_sol": "2,120.00",
+    "claude_sonnet": "2,120.00"
+  },
+  "reserve_usd": "159.55",
+  "total_usd": "1,555.56",
+  "fx_cny_per_usd": "6.672831233806843562941123917",
+  "rmb_equivalent": "10,379.99",
+  "pages": 6
+}

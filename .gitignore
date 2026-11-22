@@ -1,0 +1,40 @@
+# Local tools, previews, validation copies and migration backup
+.local/
+tmp/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.next/
+.open-next/
+.wrangler/
+.dev.vars
+.dev.vars.*
+out/
+dist/
+build/
+.turbo/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Local credentials; sanitized examples may be committed
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Reviewed deliverables and illustrative model outputs remain versionable.

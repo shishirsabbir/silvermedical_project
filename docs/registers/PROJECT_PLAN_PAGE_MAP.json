@@ -1,0 +1,98 @@
+{
+  "full_pdf": "deliverables/pdf/UK_MEDICAL_ECOMMERCE_PROJECT_PLAN.pdf",
+  "pages": 27,
+  "day_25_page": 19,
+  "roadmap_pdf": "deliverables/pdf/UK_MEDICAL_ECOMMERCE_25_DAY_ROADMAP.pdf",
+  "html": "deliverables/html/UK_MEDICAL_ECOMMERCE_PROJECT_PLAN.html",
+  "markdown": "docs/plans/UK_MEDICAL_ECOMMERCE_PROJECT_PLAN.md",
+  "chapter_pages": {
+    "business": [
+      3,
+      3
+    ],
+    "phase-one": [
+      4,
+      4
+    ],
+    "later": [
+      5,
+      5
+    ],
+    "product-rules": [
+      6,
+      6
+    ],
+    "medicines": [
+      7,
+      7
+    ],
+    "consumer-tax": [
+      8,
+      8
+    ],
+    "catalogue": [
+      9,
+      9
+    ],
+    "storefront": [
+      10,
+      10
+    ],
+    "admin": [
+      11,
+      11
+    ],
+    "orders": [
+      12,
+      12
+    ],
+    "payments": [
+      13,
+      13
+    ],
+    "google": [
+      14,
+      14
+    ],
+    "messaging": [
+      15,
+      15
+    ],
+    "privacy": [
+      16,
+      16
+    ],
+    "architecture": [
+      17,
+      17
+    ],
+    "implementation": [
+      18,
+      18
+    ],
+    "day-25": [
+      19,
+      19
+    ],
+    "technology-cost": [
+      20,
+      20
+    ],
+    "project-budget": [
+      21,
+      21
+    ],
+    "acceptance": [
+      22,
+      22
+    ],
+    "growth-europe": [
+      23,
+      23
+    ],
+    "decisions": [
+      24,
+      24
+    ]
+  }
+}

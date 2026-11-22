@@ -1,0 +1,21 @@
+{
+  "name": "silver-medical",
+  "private": true,
+  "workspaces": [
+    "apps/storefront",
+    "packages/ui"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @silver-medical/storefront",
+    "build": "npm run build -w @silver-medical/storefront",
+    "start": "npm run start -w @silver-medical/storefront",
+    "typecheck": "npm run typecheck -w @silver-medical/storefront",
+    "cf:build": "npm run cf:build -w @silver-medical/storefront",
+    "cf:preview": "npm run cf:preview -w @silver-medical/storefront --",
+    "cf:check": "npm run cf:check -w @silver-medical/storefront",
+    "cf:deploy": "npm run cf:deploy -w @silver-medical/storefront"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}

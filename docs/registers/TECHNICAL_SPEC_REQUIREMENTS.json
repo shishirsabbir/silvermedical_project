@@ -1,0 +1,314 @@
+[
+  {
+    "section": "scope",
+    "kind": "requirement",
+    "id": "SCOPE-01",
+    "text": "Deliver a complete first-selling workflow for the agreed launch assortment.",
+    "acceptance": "An authorised operator can receive an item, publish it, accept a valid payment, dispatch it, refund it and trace the stock movement.",
+    "phase": "P1"
+  },
+  {
+    "section": "architecture",
+    "kind": "requirement",
+    "id": "ARCH-01",
+    "text": "Maintain one authoritative path for commerce changes.",
+    "acceptance": "Changing a browser price, buyer ID, stock quantity or payment flag cannot alter a server-approved order.",
+    "phase": "P1"
+  },
+  {
+    "section": "stack",
+    "kind": "requirement",
+    "id": "STACK-01",
+    "text": "Prove the selected combination before committing the backlog.",
+    "acceptance": "The first slice demonstrates auth + MFA, Prisma/Better Auth schema integration, one stock transaction, image job and payment sandbox round-trip. Resolve incompatible adapters before broader implementation.",
+    "phase": "P1"
+  },
+  {
+    "section": "experience",
+    "kind": "requirement",
+    "id": "UX-01",
+    "text": "Support a complete mobile and keyboard shopping journey.",
+    "acceptance": "A user can search, select the correct pack, edit quantities, see delivery/tax, pay and retrieve confirmation without a mouse or horizontal page overflow.",
+    "phase": "P1"
+  },
+  {
+    "section": "routes",
+    "kind": "requirement",
+    "id": "UX-02",
+    "text": "Keep historic orders and current buying decisions distinct.",
+    "acceptance": "An old order retains its original item/price/tax snapshot; a reorder uses current approved data and flags material changes.",
+    "phase": "P1"
+  },
+  {
+    "section": "discovery",
+    "kind": "requirement",
+    "id": "CAT-01",
+    "text": "Make discovery accurate and permission-aware.",
+    "acceptance": "A known SKU is the first exact result; filters retain correct pack meaning; suspended/draft items disappear from results, counts and suggestions. A 20k-SKU synthetic fixture meets the read latency target.",
+    "phase": "P1"
+  },
+  {
+    "section": "product",
+    "kind": "requirement",
+    "id": "CAT-02",
+    "text": "Make the purchase button a reflection of server rules.",
+    "acceptance": "A forged add-to-cart or checkout request cannot bypass a product, market, buyer, stock or provider restriction. The API returns a stable reason code and safe customer message.",
+    "phase": "P1"
+  },
+  {
+    "section": "checkout",
+    "kind": "requirement",
+    "id": "CHK-01",
+    "text": "Charge exactly the current accepted total once.",
+    "acceptance": "Price tampering, expired quotes, mixed tax rates, delivery changes, double-clicks and address changes are tested. The shown grand total equals the provider order amount and stored currency.",
+    "phase": "P1"
+  },
+  {
+    "section": "customer",
+    "kind": "requirement",
+    "id": "ACC-01",
+    "text": "Protect customer and organisation boundaries.",
+    "acceptance": "User A cannot read, download, reorder, cancel or change User B's order by replacing an ID. Organisation switching never carries another organisation's cart price or permission.",
+    "phase": "P1"
+  },
+  {
+    "section": "auth-customer",
+    "kind": "requirement",
+    "id": "AUTH-01",
+    "text": "Make account lifecycle secure and testable.",
+    "acceptance": "Verification/reset tokens are single-use and expire; unknown and existing emails have equivalent public responses; password reset removes old session access. Test mail delay and resend throttling.",
+    "phase": "P1"
+  },
+  {
+    "section": "auth-staff",
+    "kind": "requirement",
+    "id": "AUTH-02",
+    "text": "Protect staff operations even when the UI is bypassed.",
+    "acceptance": "A password-only session, unfinished enrollment, stale step-up, revoked account or customer cookie receives no staff access. Simulate losing an MFA device and completing the documented recovery process.",
+    "phase": "P1"
+  },
+  {
+    "section": "sessions",
+    "kind": "requirement",
+    "id": "AUTH-03",
+    "text": "Enforce session boundaries on the server.",
+    "acceptance": "Test idle/absolute expiry, session fixation, concurrent sessions, cross-site form submission, role removal and customer-to-admin cookie reuse. Confirm no account HTML is shared through CDN or Next.js caches.",
+    "phase": "P1"
+  },
+  {
+    "section": "permissions",
+    "kind": "requirement",
+    "id": "ACL-01",
+    "text": "Prevent horizontal and vertical privilege escalation.",
+    "acceptance": "Exercise the permission matrix through direct API calls, including cross-customer IDs, wrong organisations, revoked verification, direct document URLs and staff role manipulation.",
+    "phase": "P1"
+  },
+  {
+    "section": "admin",
+    "kind": "requirement",
+    "id": "ADM-01",
+    "text": "Keep staff productive without hiding failures.",
+    "acceptance": "A 20k-SKU fixture remains responsive with server-side pagination; failed jobs show retry/error details; concurrent edits return a conflict rather than silently losing data.",
+    "phase": "P1"
+  },
+  {
+    "section": "catalogue",
+    "kind": "requirement",
+    "id": "REG-01",
+    "text": "Apply eligibility consistently across every surface.",
+    "acceptance": "A suspended item cannot appear in public API/search/recommendations/feed or pass checkout/dispatch. Restriction tests cover ordinary consumers, approved professionals, NI and an unapproved EU country.",
+    "phase": "P1"
+  },
+  {
+    "section": "imports",
+    "kind": "requirement",
+    "id": "IMP-01",
+    "text": "Import without losing traceability or publishing unreviewed content.",
+    "acceptance": "Malformed rows, duplicate batches, changed pack units, spreadsheet formulas and network failures produce safe errors. Re-running a batch creates no duplicate SKU or stock receipt.",
+    "phase": "P1"
+  },
+  {
+    "section": "media",
+    "kind": "requirement",
+    "id": "MED-01",
+    "text": "Keep processing isolated from customer traffic.",
+    "acceptance": "Large/malformed uploads cannot exhaust the API; a worker crash is retried safely; private evidence never receives a public URL; approved thumbnails retain readable product labels.",
+    "phase": "P1"
+  },
+  {
+    "section": "data",
+    "kind": "requirement",
+    "id": "DATA-01",
+    "text": "Preserve evidence for the entire transaction chain.",
+    "acceptance": "A paid order can be traced to its exact product/pack/tax snapshot, payment attempt, allocated lot, shipment and any return/refund or recall action.",
+    "phase": "P1"
+  },
+  {
+    "section": "integrity",
+    "kind": "requirement",
+    "id": "DATA-02",
+    "text": "Make invalid financial and stock state difficult to persist.",
+    "acceptance": "Constraint tests reject duplicate provider events, over-refunds, invalid pack amounts and conflicting stock writes. Representative EXPLAIN plans avoid full scans for the primary queues.",
+    "phase": "P1"
+  },
+  {
+    "section": "inventory",
+    "kind": "requirement",
+    "id": "INV-01",
+    "text": "Prevent overselling and unsafe dispatch.",
+    "acceptance": "With one unit available, concurrent accepted reservations total at most one. Test payment/expiry races, lot quarantine during checkout, partial shipment and retrying the same receipt.",
+    "phase": "P1"
+  },
+  {
+    "section": "orders",
+    "kind": "requirement",
+    "id": "ORD-01",
+    "text": "Recover a partially completed checkout safely.",
+    "acceptance": "Simulate a process crash after order commit, after provider creation and after payment notification. Recovery produces one order/payment outcome and an explainable stock state.",
+    "phase": "P1"
+  },
+  {
+    "section": "payments",
+    "kind": "requirement",
+    "id": "PAY-01",
+    "text": "Never charge or dispatch twice because of retries.",
+    "acceptance": "Test duplicate/delayed webhooks, forged signatures, wrong currency/amount, lost redirects, provider timeouts, repeated capture/refund calls and sandbox/live credential mix-ups.",
+    "phase": "P1"
+  },
+  {
+    "section": "returns",
+    "kind": "requirement",
+    "id": "RET-01",
+    "text": "Reconcile physical goods and money independently.",
+    "acceptance": "A partial return/refund produces the correct credit and available balance, while inspected stock remains quarantined until released. A lot recall lists all affected dispatched orders and blocks pending ones.",
+    "phase": "P1"
+  },
+  {
+    "section": "api",
+    "kind": "requirement",
+    "id": "API-01",
+    "text": "Make integration behaviour predictable under retries.",
+    "acceptance": "Generated clients match OpenAPI; invalid/unknown writable fields are rejected; request replay returns the prior result, and cross-user idempotency keys cannot reveal data.",
+    "phase": "P1"
+  },
+  {
+    "section": "contracts",
+    "kind": "requirement",
+    "id": "API-02",
+    "text": "Preserve invariants across contract boundaries.",
+    "acceptance": "For the example, 10000+2000+500+100 = 12600. Quote expiry/revision conflict and a replayed payment event produce safe, documented outcomes rather than a second transaction.",
+    "phase": "P1"
+  },
+  {
+    "section": "jobs",
+    "kind": "requirement",
+    "id": "JOB-01",
+    "text": "Survive worker restarts and external outages.",
+    "acceptance": "Kill the worker after an external call but before acknowledgement; replay produces no duplicate refund, shipment, notification or import. Failed jobs have an owner, reason and safe replay path.",
+    "phase": "P1"
+  },
+  {
+    "section": "seo-targets",
+    "kind": "requirement",
+    "id": "SEO-01",
+    "text": "Deliver reproducible quality evidence.",
+    "acceptance": "Attach release audit reports and manual keyboard/screen-reader findings for the template matrix. Field metrics without enough samples are marked unavailable, not assigned a fabricated passing value.",
+    "phase": "P1"
+  },
+  {
+    "section": "seo-implementation",
+    "kind": "requirement",
+    "id": "SEO-02",
+    "text": "Keep the HTML, structured data, feeds and checkout consistent.",
+    "acceptance": "A catalogue update changes all approved public representations; a restriction removal purges affected discovery/cache entries. Test canonical, pagination, noindex, sitemap and product-schema cases.",
+    "phase": "P1"
+  },
+  {
+    "section": "merchant",
+    "kind": "requirement",
+    "id": "MKT-01",
+    "text": "Never export a product solely because it is sellable on-site.",
+    "acceptance": "A test catalogue with permitted, restricted, suspended and unreviewed items produces only the correct market/channel subset; a stale cache/feed cannot make an excluded SKU orderable.",
+    "phase": "P1"
+  },
+  {
+    "section": "performance",
+    "kind": "requirement",
+    "id": "PERF-01",
+    "text": "Validate the combined KVM workload before production.",
+    "acceptance": "Record k6/Lighthouse traces, database query plans, CPU/RAM/disk/connection use and worker lag. If targets fail, optimise or resize and re-cost; do not claim 10k/day capacity from the VPS specification alone.",
+    "phase": "P1"
+  },
+  {
+    "section": "security",
+    "kind": "requirement",
+    "id": "SEC-01",
+    "text": "Release with no unresolved critical/high exploitable findings in the agreed assessment.",
+    "acceptance": "Run dependency/static checks and focused manual tests of auth, access, uploads, webhooks and caching. Document ownership and resolution for findings; a scanner pass alone is not a security certification.",
+    "phase": "P1"
+  },
+  {
+    "section": "privacy",
+    "kind": "requirement",
+    "id": "PRIV-01",
+    "text": "Make consent and private-data controls observable.",
+    "acceptance": "Rejecting/withdrawing consent prevents the relevant network requests; a queued marketing job rechecks suppression; a privacy request can be fulfilled without deleting required recall/financial records.",
+    "phase": "P1"
+  },
+  {
+    "section": "communications",
+    "kind": "requirement",
+    "id": "COM-01",
+    "text": "Keep messages correct, lawful and recoverable.",
+    "acceptance": "A replayed order event does not send duplicate confirmations; an opted-out recipient is suppressed from marketing; mail failure creates an alert while order state remains intact.",
+    "phase": "P1"
+  },
+  {
+    "section": "deployment",
+    "kind": "requirement",
+    "id": "DEP-01",
+    "text": "Make release and rollback reproducible.",
+    "acceptance": "Deploy to staging from a clean artefact, apply the migration, complete order/refund/restore smoke checks and demonstrate rollback to the prior compatible application. Record image digests and approver.",
+    "phase": "P1"
+  },
+  {
+    "section": "operations",
+    "kind": "requirement",
+    "id": "OPS-01",
+    "text": "Demonstrate recovery against the proposed objectives.",
+    "acceptance": "Restore a timed backup in a separate environment, replay to a chosen recovery point, check orders/stock/documents and reconcile provider transactions after the cutoff. Record achieved RPO/RTO and any gaps.",
+    "phase": "P1"
+  },
+  {
+    "section": "cost-controls",
+    "kind": "requirement",
+    "id": "COST-01",
+    "text": "Review cost and capacity together.",
+    "acceptance": "Dashboard/export reconciles monthly service invoices with storage, requests, messages and resource metrics. Alerts at 70% and 90% of agreed budgets prompt review; they do not silently disable essential order or recovery functions.",
+    "phase": "P1"
+  },
+  {
+    "section": "roadmap",
+    "kind": "requirement",
+    "id": "REL-01",
+    "text": "Keep phase acceptance observable.",
+    "acceptance": "Each release has an approved backlog, representative fixtures, passed acceptance evidence, operator readiness and a deploy/rollback record. Missing legal/provider readiness cannot be marked complete by a feature flag.",
+    "phase": "P1"
+  },
+  {
+    "section": "acceptance",
+    "kind": "requirement",
+    "id": "QA-01",
+    "text": "Attach evidence to each release requirement.",
+    "acceptance": "The requirement register records owner, phase, test/evidence link, status and exceptions. Every P1 requirement is passed or explicitly rescheduled with the release impact recorded; legal permission is never waived by a technical exception.",
+    "phase": "P1"
+  },
+  {
+    "section": "decisions",
+    "kind": "requirement",
+    "id": "READY-01",
+    "text": "Replace assumptions with evidence early.",
+    "acceptance": "By the first scope review, record the tested stack, provider sandbox outcome, auth policy results, measured throughput, open dependencies and revised backlog. Maintain the decision log rather than silently changing architecture.",
+    "phase": "P1"
+  }
+]

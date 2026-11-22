@@ -1,0 +1,21 @@
+{
+  "pages": 17,
+  "sections": {
+    "overview": 2,
+    "workshop": 3,
+    "assets": 4,
+    "customer-features": 5,
+    "admin-features": 6,
+    "boundaries": 7,
+    "catalogue": 8,
+    "team": 9,
+    "days-1-5": 10,
+    "days-6-10": 11,
+    "days-11-15": 12,
+    "days-16-20": 13,
+    "days-21-25": 14,
+    "readiness": 15,
+    "growth": 16,
+    "sources": 17
+  }
+}

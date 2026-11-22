@@ -1,0 +1,123 @@
+{
+  "total_pages": 47,
+  "sections": {
+    "scope": [
+      4
+    ],
+    "architecture": [
+      5
+    ],
+    "stack": [
+      6
+    ],
+    "experience": [
+      7
+    ],
+    "routes": [
+      8
+    ],
+    "discovery": [
+      9
+    ],
+    "product": [
+      10
+    ],
+    "checkout": [
+      11
+    ],
+    "customer": [
+      12
+    ],
+    "auth-customer": [
+      13
+    ],
+    "auth-staff": [
+      14
+    ],
+    "sessions": [
+      15
+    ],
+    "permissions": [
+      16
+    ],
+    "admin": [
+      17
+    ],
+    "catalogue": [
+      18
+    ],
+    "imports": [
+      19
+    ],
+    "media": [
+      20
+    ],
+    "data": [
+      21
+    ],
+    "integrity": [
+      22
+    ],
+    "inventory": [
+      23
+    ],
+    "orders": [
+      24
+    ],
+    "payments": [
+      25
+    ],
+    "returns": [
+      26
+    ],
+    "api": [
+      27
+    ],
+    "contracts": [
+      28
+    ],
+    "jobs": [
+      29
+    ],
+    "seo-targets": [
+      30
+    ],
+    "seo-implementation": [
+      31
+    ],
+    "merchant": [
+      32
+    ],
+    "performance": [
+      33
+    ],
+    "security": [
+      34
+    ],
+    "privacy": [
+      35
+    ],
+    "communications": [
+      36
+    ],
+    "deployment": [
+      37
+    ],
+    "operations": [
+      38
+    ],
+    "cost-controls": [
+      39
+    ],
+    "roadmap": [
+      40
+    ],
+    "acceptance": [
+      41
+    ],
+    "decisions": [
+      42
+    ]
+  },
+  "sources_start": 43
+}

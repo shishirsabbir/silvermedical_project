@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "cover": 1,
+    "vision": 2,
+    "selling": 3,
+    "uk-rules": 4,
+    "europe": 5,
+    "trust": 6,
+    "search": 7,
+    "growth-plan": 8,
+    "stack": 9,
+    "operations": 10,
+    "budget": 11,
+    "roadmap": 12,
+    "day25": 13,
+    "later": 14,
+    "effort": 15,
+    "analytics": 16,
+    "partner": 17
+  },
+  "content_bottoms": {
+    "vision": 742.05,
+    "selling": 767.21,
+    "uk-rules": 664.55,
+    "europe": 724.29,
+    "trust": 723.07,
+    "search": 726.21,
+    "growth-plan": 743.62,
+    "stack": 707.89,
+    "operations": 742.92,
+    "budget": 769.45,
+    "roadmap": 764.15,
+    "day25": 688.62,
+    "later": 684.21,
+    "effort": 732.25,
+    "analytics": 726.71,
+    "partner": 769.29
+  },
+  "icons": 90
+}
